@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galdy Dog Grooming | Chicago, IL</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero {
+            background-color: #e0f7fa;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .reviews {
+            background-color: #fff;
+            border: 1px solid #ddd;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .service-item {
+            text-align: center;
+            width: 200px;
+            margin: 20px;
+        }
+        .faqs details {
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Galdy Dog Grooming</h1>
+        <p>Professional Dog Grooming in Chicago, IL – Providing the Best Experience for Your Puppy</p>
+        <img src="https://placehold.co/600x400?text=Dog+Grooming+Image" alt="Happy dog being groomed">
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>Book a Grooming Session in Chicago, IL</h2>
+        <p>Call us today to schedule the best grooming experience for your furry friend!</p>
+        <button onclick="alert('Call (773) 764-2275 to book!')">Book Now</button>
+    </div>
+
+    <!-- Five Star Experience (Placeholder reviews since none provided) -->
+    <section class="reviews">
+        <h2>Our Five Star Experience</h2>
+        <p>With over 10 years of professional grooming, we deliver top-notch care. Here's what our customers say:</p>
+        <div>
+            <p>"Best groomer ever! My puppy looks amazing." - Happy Customer</p>
+            <p>★★★★★</p>
+        </div>
+        <div>
+            <p>"Professional and caring service every time." - Loyal Client</p>
+            <p>★★★★★</p>
+        </div>
+        <div>
+            <p>"Couldn't be happier with the results!" - Pet Parent</p>
+            <p>★★★★★</p>
+        </div>
+    </section>
+
+    <!-- Signature Service -->
+    <section class="services">
+        <h2>The Galdy Signature Service</h2>
+        <p>One-on-one grooming with gentle & compassionate expert stylists in our comfortable salon.</p>
+        <div class="service-item">
+            <img src="https://placehold.co/100x100?text=Bath" alt="Warm Water Bath">
+            <p>Warm Water Bath</p>
+        </div>
+        <div class="service-item">
+            <img src="https://placehold.co/100x100?text=Products" alt="All-Natural Products">
+            <p>All-Natural Products</p>
+        </div>
+        <div class="service-item">
+            <img src="https://placehold.co/100x100?text=Brush" alt="Gentle Brushing & Blowdry">
+            <p>Gentle Brushing & Blowdry</p>
+        </div>
+        <div class="service-item">
+            <img src="https://placehold.co/100x100?text=Teeth" alt="Teeth Cleaning & Ear Cleaning">
+            <p>Teeth Cleaning & Ear Cleaning</p>
+        </div>
+        <div class="service-item">
+            <img src="https://placehold.co/100x100?text=Haircut" alt="Breed-Specific Haircut">
+            <p>Breed-Specific Haircut</p>
+        </div>
+    </section>
+
+    <!-- Community Section -->
+    <section>
+        <h2>Get to Know the Dog Community of Chicago North</h2>
+        <p>Chicago North is a haven for dog lovers! Enjoy parks like Skokie Northshore Sculpture Park and Lakewood Dog Park, bike paths, and dog-friendly spots like Side Lot Brewery, Dawg Park Gourmet Grill, Copper Fiddle Distillery, and Gillson Dog Beach.</p>
+        <p>At Galdy, we provide the best in-salon grooming experience for all breeds and sizes, using premium products for a stress-free spa day.</p>
+    </section>
+
+    <!-- Expert Grooming Section -->
+    <section>
+        <h2>Expert Dog Grooming in Chicago North</h2>
+        <p>With over 10+ years of professional grooming, we offer a world-class experience in our state-of-the-art salon at 7007 N Sheridan Rd, Chicago, IL 60626. No mobile service – just the best care in a comfortable environment.</p>
+        <img src="https://placehold.co/600x400?text=Salon+Image" alt="Grooming salon interior">
+    </section>
+
+    <!-- FAQs -->
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <details>
+            <summary>What types of dogs do you groom?</summary>
+            <p>We groom all breeds and sizes in our Chicago salon.</p>
+        </details>
+        <details>
+            <summary>What makes Galdy special?</summary>
+            <p>Over 10 years of experience providing the best puppy grooming in a stress-free environment.</p>
+        </details>
+        <details>
+            <summary>What is included in the service?</summary>
+            <p>Warm bath, natural products, brushing, cleaning, and breed-specific haircut.</p>
+        </details>
+        <details>
+            <summary>How do I schedule an appointment?</summary>
+            <p>Call us at (773) 764-2275 during business hours.</p>
+        </details>
+    </section>
+
+    <!-- We Love What We Do -->
+    <section>
+        <h2>We Love What We Do!</h2>
+        <p>The entire Galdy team loves dogs and providing the best grooming experience. With 10+ years in the business, we're dedicated to making your puppy look and feel great in Chicago, IL.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Address: 7007 N Sheridan Rd, Chicago, IL 60626</p>
+        <p>Phone: (773) 764-2275</p>
+        <p>Hours:</p>
+        <ul>
+            <li>Sunday: Closed</li>
+            <li>Monday: 7 AM–6 PM</li>
+            <li>Tuesday: 7 AM–6 PM</li>
+            <li>Wednesday: 7 AM–6 PM</li>
+            <li>Thursday: 7 AM–6 PM</li>
+            <li>Friday: 7 AM–6 PM</li>
+            <li>Saturday: 7 AM–2 PM</li>
+        </ul>
+    </footer>
+
+</body>
+</html>
